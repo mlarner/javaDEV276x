@@ -7,13 +7,11 @@ public class Crypto {
 
     public static void main(String args[]) {
 
-
+        System.out.println("Who will win the electioni?");
         String cypherText = encrypt("Who will win the electioni?", 5, 3);
-
-
         System.out.println(cypherText);
-
         String decrypted = decrypt(cypherText, 5);
+        System.out.println(decrypted);
     }
 
     public static String normalizeText(String spaces) {
@@ -118,7 +116,7 @@ public class Crypto {
         }
         return ungroupified;
     }
-    
+
     public static String unobify(String toUnobify) {
 
         String unobified = "";
