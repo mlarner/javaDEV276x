@@ -1,3 +1,8 @@
+//DEV 276x EDX Java Course Module 1 Project
+//Max Larner
+//Close enough for my purposes
+//30min - 1 hr to complete
+
 import java.util.*;
 
 public class TripPlanner {
